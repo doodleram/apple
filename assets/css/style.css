@@ -18,9 +18,12 @@
 #header .header-title {
     font-weight: bold;
     font-size: 32px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 #header .header-id {
-    position: absolute; right: 0; bottom: 5px;
+    position: absolute; right: 0; bottom: 12px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -37,6 +40,12 @@
     text-transform: uppercase;
     background: linear-gradient(149.74deg, rgba(164, 169, 181, 0.2) 23.16%, rgba(164, 169, 181, 0) 81.58%), #C4C4C4;
 }
+
+/* bestM  */
+.bestM .best-title .bt-stit {color: #DA4E7C; font-size: 12px; line-height: 1.67;}
+.bestM .best-title .bt-tit {font-size: 22px; font-weight: 600; line-height: 0.91; padding-bottom: 5px;}
+.bestM .best-title .bt-desc {font-size: 22px; font-weight: 300; color: #818181; margin-bottom: 10px;}
+
 
 /* mediaquery */
 @media (max-width: 1020px){
